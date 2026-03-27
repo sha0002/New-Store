@@ -4,7 +4,7 @@ import { getProduct } from "./services/ProductService";
 
 // export const revalidate = 30
 
-export const dynamic = "force-dynamic";
+// export const dynamic = "force-dynamic";
 
 export default async function Page() {
 
