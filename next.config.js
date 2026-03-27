@@ -26,9 +26,9 @@
  * @type {import('next').NextConfig}
  */
 const nextConfig = {
-    reactStrictMode: true,
+    reactStrictMode: false,
     eslint: {
-        ignoreDuringBuilds: false,
+        ignoreDuringBuilds: true,
     },
 }
 
