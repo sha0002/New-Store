@@ -4,7 +4,7 @@ import { getProduct } from '../services/ProductService'
 
 // export const revalidate = 30
 
-
+export const dynamic = "force-dynamic";
 
 const Products = async () => {
 
