@@ -12,24 +12,24 @@
 
 // export default nextConfig;
 
-// /** @type {import('next').NextConfig} */
-// const nextConfig = {
-//   reactStrictMode: true,
-//   eslint: {
-//     ignoreDuringBuilds: false,
-//   },
-// };
+/** @type {import('next').NextConfig} */
+const nextConfig = {
+  reactStrictMode: true,
+  eslint: {
+    ignoreDuringBuilds: false,
+  },
+};
 
-// export default nextConfig;
+export default nextConfig;
 
 /**
- * @type {import('next').NextConfig}
- */
-const nextConfig = {
-    reactStrictMode: false,
-    eslint: {
-        ignoreDuringBuilds: true,
-    },
-}
+//  * @type {import('next').NextConfig}
+//  */
+// const nextConfig = {
+//     reactStrictMode: false,
+//     eslint: {
+//         ignoreDuringBuilds: true,
+//     },
+// }
 
-module.exports = nextConfig
+// module.exports = nextConfig
